@@ -13,7 +13,7 @@ pipelines:
           integrations:        
             - name: artifactory
             - name: docker
-            - name: ladanym
+            - name: server_name
           inputResources:
             - name: source_code
             - name: framework_generic_fileSpec
